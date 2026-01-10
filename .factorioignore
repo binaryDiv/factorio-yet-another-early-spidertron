@@ -1,0 +1,13 @@
+# IDEs / editors
+/.idea
+/.vscode
+/.emmyrc.json
+
+# General
+/tmp
+/.tmp
+/_tmp
+/.build
+
+# Screenshots for the mod portal
+/screenshots

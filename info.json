@@ -1,0 +1,15 @@
+{
+    "name": "yet-another-early-spidertron",
+    "version": "0.1.0",
+    "title": "Yet Another Early Spidertron",
+    "author": "binaryDiv",
+    "contact": "factorio@binarydiv.dev",
+    "homepage": "https://github.com/binaryDiv/factorio-yet-another-early-spidertron",
+    "description": "Yet another mod to unlock the Spidertron earlier in the game, but not too early or too cheap.",
+    "factorio_version": "2.0",
+    "dependencies": [
+        "base >= 2.0",
+        "space-age",
+        "? Pacifist"
+    ]
+}
