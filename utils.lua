@@ -58,6 +58,26 @@ function utils.remove_tech_unit_ingredient(tech_name, ingredient)
     end
 end
 
+-- Add a prerequisite to a technology
+function utils.add_tech_prerequisite(tech_name, prerequisite_name)
+    local tech = data.raw.technology[tech_name]
+
+    if tech and data.raw.technology[prerequisite_name] then
+        tech.prerequisites = tech.prerequisites or {}
+
+        -- Check if prerequisite is already set
+        for _, prerequisite in pairs(tech.prerequisites) do
+            if prerequisite == prerequisite_name then
+                -- Already set, nothing to do
+                return true
+            end
+        end
+
+        -- Add prerequisite
+        table.insert(tech.prerequisites, prerequisite_name)
+    end
+end
+
 -- Remove a prerequisite from a technology
 function utils.remove_tech_prerequisite(tech_name, prerequisite_name)
     local tech = data.raw.technology[tech_name]

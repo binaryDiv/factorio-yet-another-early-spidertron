@@ -11,3 +11,4 @@ utils.set_tech_unit_count("spidertron", 1000)  -- default: 2500
 utils.remove_tech_unit_ingredient("spidertron", "agricultural-science-pack")
 utils.remove_tech_prerequisite("spidertron", "rocket-turret")
 utils.remove_tech_prerequisite("spidertron", "carbon-fiber")  -- added by Pacifist to replace rocket-turret
+utils.add_tech_prerequisite("spidertron", "space-science-pack")
