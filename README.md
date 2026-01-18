@@ -13,6 +13,8 @@ Yet another mod that unlocks the Spidertron earlier in the game, because the exi
 
 The Spidertron technology is moved from Gleba to Nauvis, while still requiring all Nauvis sciences including space science (effectively just removing the agricultural science requirement).
 
+Optionally, the space science pack can be removed from the technology as well, meaning only the Nauvis science packs up to production science and utility science are needed.
+
 The technology cost is reduced a bit (1000 units rather than 2500) to fit more with the progression.
 
 The recipe is modified as little as possible, only replacing the rocket turret (which is unlocked on Gleba) with some processing units.

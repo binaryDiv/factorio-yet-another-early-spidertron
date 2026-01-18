@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 18. 01. 2026
+  Features:
+    - Add setting to remove space science pack from Spidertron technology.
+  Bugfixes:
+    - Add missing prerequisite for space science pack to Spidertron technology.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 10. 01. 2026
   Major Features:
