@@ -1,6 +1,6 @@
 local utils = require("utils")
 
-setting_remove_space_science = settings.startup["yet-another-early-spidertron-remove-space-science"].value
+local setting_remove_space_science = settings.startup["yet-another-early-spidertron-remove-space-science"].value
 
 -- Spidertron recipe: Replace rocket turret with processing units
 utils.remove_recipe_ingredient("spidertron", "rocket-turret")

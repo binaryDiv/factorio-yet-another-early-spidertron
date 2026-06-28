@@ -26,12 +26,14 @@ function utils.remove_recipe_ingredient(name, ingredient_name)
     end
 end
 
--- Regenerate recycling recipe for a given recipe (using functions from the quality mod)
+-- Regenerate recycling recipe for a given recipe (using functions from the recycler mod)
 function utils.regenerate_recycling_recipe(recipe_name)
-    local recycling = require("__quality__.prototypes.recycling")
-    local recipe = data.raw.recipe[recipe_name]
-    if recipe ~= nil then
-        recycling.generate_recycling_recipe(recipe)
+    if mods["recycler"] then
+        local recycling = require("__recycler__.recycling")
+        local recipe = data.raw.recipe[recipe_name]
+        if recipe ~= nil then
+            recycling.generate_recycling_recipe(recipe)
+        end
     end
 end
 
